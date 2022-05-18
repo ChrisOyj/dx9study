@@ -10,7 +10,6 @@ public:
 
 public:
 	HRESULT		Initialize();
-	
 	void		Release();
 
 private:

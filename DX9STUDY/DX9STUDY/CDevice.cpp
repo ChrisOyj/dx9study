@@ -2,7 +2,10 @@
 #include "CDevice.h"
 
 CDevice::CDevice()
-{}
+	: m_pSDK(nullptr)
+	, m_pDevice(nullptr)
+{
+}
 
 CDevice::~CDevice()
 {

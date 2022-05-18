@@ -13,6 +13,7 @@ CCore::~CCore()
 
 HRESULT CCore::Initialize()
 {
+
 	if (E_FAIL == CDevice::Get_Instance()->Initialize())
 	{
 		ErrorMessage(L"디바이스 초기화 실패");
